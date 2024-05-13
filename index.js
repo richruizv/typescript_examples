@@ -1,7 +1,11 @@
-function printID(id) {
-    console.log("your ID is ".concat(id));
+function welcomePeople(x) {
+    if (Array.isArray(x)) {
+        console.log("welcome ".concat(x.join(' and ')));
+    }
+    else {
+        console.log("welcome ".concat(x));
+    }
 }
 ;
-printID(101);
-printID('101');
-printID({ id: '101' }); // error!
+welcomePeople(['Richard', 'Liss']);
+welcomePeople('Peter');

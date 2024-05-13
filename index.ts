@@ -1,8 +1,9 @@
-function printID(id: number | string) {
-    console.log(`your ID is ${id}`)
+function welcomePeople(x: string | string[]) {
+    if( Array.isArray(x)){
+        console.log(`welcome ${x.join(' and ')}`)
+    } else
+    { console.log(`welcome ${x}`)}
 };
 
-printID(101)
-printID('101')
-printID({id: '101'}) // error!
-
+welcomePeople(['Richard', 'Liss'])
+welcomePeople('Peter')

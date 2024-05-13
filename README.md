@@ -20,4 +20,9 @@ This will show us the error, but will generate the javascript file anyway
 - Optional parameters
 - Union Types
 
+How to run typescript files with node
 
+    npx ts-node index.ts
+
+
+- Union Types with diferent options
