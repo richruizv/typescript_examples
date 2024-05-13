@@ -26,3 +26,5 @@ How to run typescript files with node
 
 
 - Union Types with diferent options
+- Aliases, as its name says, are ways to assign types to a variable
+- Interfaces also can specify attributes, but the main difference is that types cannot be reassigned
