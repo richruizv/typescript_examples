@@ -1,11 +1,5 @@
-function welcomePeople(x) {
-    if (Array.isArray(x)) {
-        console.log("welcome ".concat(x.join(' and ')));
-    }
-    else {
-        console.log("welcome ".concat(x));
-    }
+function printText(s, alignment) {
+    console.log("hello ".concat(s, ", align text to ").concat(alignment));
 }
-;
-welcomePeople(['Richard', 'Liss']);
-welcomePeople('Peter');
+printText('richard', 'center');
+printText('liss', 'rigth');

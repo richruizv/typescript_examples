@@ -18,13 +18,14 @@ This will show us the error, but will generate the javascript file anyway
 
 - Declare functions with typed parameters, and typed outcomes
 - Optional parameters
-- Union Types
 
 How to run typescript files with node
 
     npx ts-node index.ts
 
-
+## Class three
 - Union Types with diferent options
 - Aliases, as its name says, are ways to assign types to a variable
 - Interfaces also can specify attributes, but the main difference is that types cannot be reassigned
+- Union Types
+- Literal Types

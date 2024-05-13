@@ -1,9 +1,6 @@
-function welcomePeople(x: string | string[]) {
-    if( Array.isArray(x)){
-        console.log(`welcome ${x.join(' and ')}`)
-    } else
-    { console.log(`welcome ${x}`)}
-};
+function printText(s: string, alignment: 'left' | 'center' | 'right'){
+    console.log(`hello ${s}, align text to ${alignment}`);
+}
 
-welcomePeople(['Richard', 'Liss'])
-welcomePeople('Peter')
+printText('richard','center');
+printText('liss','rigth')
