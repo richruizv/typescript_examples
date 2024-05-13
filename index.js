@@ -1,5 +1,7 @@
-function printName(name, lastName) {
+function printID(id) {
+    console.log("your ID is ".concat(id));
 }
-// both ok
-printName('richard');
-printName('liss', 'ojeda');
+;
+printID(101);
+printID('101');
+printID({ id: '101' }); // error!
