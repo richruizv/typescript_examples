@@ -14,4 +14,6 @@ If we want to compile anyways, we use
 
 This will show us the error, but will generate the javascript file anyway
 
+## Class two
 
+Declare functions with typed parameters, and typed outcomes

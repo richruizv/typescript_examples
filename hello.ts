@@ -1,7 +1,14 @@
-"use strict"
-function greet(person, date) {
-    console.log("Hello ".concat(person, ", today is ").concat(date.toDateString(), "!"));
+
+function getFavoriteNumber(): number {
+    return 26;
 }
 
-greet("Liss", new Date());
+function getSecondFavoriteNumber(number: number) {
+    return number;
+}
+
+let number;
+
+number = getFavoriteNumber();
+getSecondFavoriteNumber(number);
   
